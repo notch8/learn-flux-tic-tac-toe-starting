@@ -1,0 +1,36 @@
+.board{
+  display: flex;
+  width: 600px;
+  height: 600px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 4px;
+}
+
+.square{
+  height: 200px;
+  width: 200px;
+  box-sizing: border-box;
+  border: 5px solid black;
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square:hover{
+  cursor: pointer;
+  background-color: green;
+}
+
+.winner-container{
+  height: 6em;
+}
+.winner{
+  border: 1px solid green;
+  margin-bottom: 4px;
+  padding: 4px;
+  background-color: green;
+}
+
